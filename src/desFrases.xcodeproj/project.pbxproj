@@ -16,7 +16,7 @@
 		73DF797813B21E230072C101 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73DF797613B21E230072C101 /* MainWindow.xib */; };
 		73DF797B13B21E230072C101 /* desFrasesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DF797A13B21E230072C101 /* desFrasesViewController.m */; };
 		73DF797E13B21E230072C101 /* desFrasesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73DF797C13B21E230072C101 /* desFrasesViewController.xib */; };
-		73DF798513B222700072C101 /* spiderwall-black-wide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73DF798413B222700072C101 /* spiderwall-black-wide.jpg */; };
+		73DF799013B2269F0072C101 /* spiderwall-black-wide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73DF798F13B2269F0072C101 /* spiderwall-black-wide.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,7 +34,7 @@
 		73DF797913B21E230072C101 /* desFrasesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = desFrasesViewController.h; sourceTree = "<group>"; };
 		73DF797A13B21E230072C101 /* desFrasesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = desFrasesViewController.m; sourceTree = "<group>"; };
 		73DF797D13B21E230072C101 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/desFrasesViewController.xib; sourceTree = "<group>"; };
-		73DF798413B222700072C101 /* spiderwall-black-wide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "spiderwall-black-wide.jpg"; path = "../../../../Desktop/spiderwall-black-wide.jpg"; sourceTree = "<group>"; };
+		73DF798F13B2269F0072C101 /* spiderwall-black-wide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "spiderwall-black-wide.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +81,13 @@
 		73DF796A13B21E230072C101 /* desFrases */ = {
 			isa = PBXGroup;
 			children = (
+				73DF798F13B2269F0072C101 /* spiderwall-black-wide.jpg */,
 				73DF797313B21E230072C101 /* desFrasesAppDelegate.h */,
 				73DF797413B21E230072C101 /* desFrasesAppDelegate.m */,
 				73DF797613B21E230072C101 /* MainWindow.xib */,
 				73DF797913B21E230072C101 /* desFrasesViewController.h */,
 				73DF797A13B21E230072C101 /* desFrasesViewController.m */,
 				73DF797C13B21E230072C101 /* desFrasesViewController.xib */,
-				73DF798413B222700072C101 /* spiderwall-black-wide.jpg */,
 				73DF796B13B21E230072C101 /* Supporting Files */,
 			);
 			path = desFrases;
@@ -154,7 +154,7 @@
 				73DF796F13B21E230072C101 /* InfoPlist.strings in Resources */,
 				73DF797813B21E230072C101 /* MainWindow.xib in Resources */,
 				73DF797E13B21E230072C101 /* desFrasesViewController.xib in Resources */,
-				73DF798513B222700072C101 /* spiderwall-black-wide.jpg in Resources */,
+				73DF799013B2269F0072C101 /* spiderwall-black-wide.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +280,7 @@
 				73DF798313B21E230072C101 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
