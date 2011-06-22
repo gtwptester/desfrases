@@ -12,6 +12,7 @@
 		</object>
 		<object class="NSArray" key="IBDocument.IntegratedClassDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
+			<string>IBUIButton</string>
 			<string>IBUIImageView</string>
 			<string>IBUIView</string>
 			<string>IBUILabel</string>
@@ -60,10 +61,10 @@
 					<object class="IBUILabel" id="569136434">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">314</int>
-						<string key="NSFrame">{{20, 150}, {280, 160}}</string>
+						<string key="NSFrame">{{20, 97}, {280, 160}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
+						<reference key="NSNextKeyView" ref="314596659"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
@@ -74,7 +75,7 @@
 							<double key="NSSize">30</double>
 							<int key="NSfFlags">16</int>
 						</object>
-						<object class="NSColor" key="IBUITextColor">
+						<object class="NSColor" key="IBUITextColor" id="900866083">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MQA</bytes>
 						</object>
@@ -84,6 +85,34 @@
 						<int key="IBUINumberOfLines">0</int>
 						<int key="IBUITextAlignment">1</int>
 						<int key="IBUILineBreakMode">2</int>
+					</object>
+					<object class="IBUIButton" id="314596659">
+						<reference key="NSNextResponder" ref="774585933"/>
+						<int key="NSvFlags">282</int>
+						<string key="NSFrame">{{79, 396}, {162, 51}}</string>
+						<reference key="NSSuperview" ref="774585933"/>
+						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView"/>
+						<bool key="IBUIOpaque">NO</bool>
+						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+						<int key="IBUIContentHorizontalAlignment">0</int>
+						<int key="IBUIContentVerticalAlignment">0</int>
+						<object class="NSFont" key="IBUIFont">
+							<string key="NSName">Helvetica-Bold</string>
+							<double key="NSSize">15</double>
+							<int key="NSfFlags">16</int>
+						</object>
+						<int key="IBUIButtonType">1</int>
+						<string key="IBUINormalTitle">Mais desFrases</string>
+						<reference key="IBUIHighlightedTitleColor" ref="900866083"/>
+						<object class="NSColor" key="IBUINormalTitleColor">
+							<int key="NSColorSpace">1</int>
+							<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
+						</object>
+						<object class="NSColor" key="IBUINormalTitleShadowColor">
+							<int key="NSColorSpace">3</int>
+							<bytes key="NSWhite">MC41AA</bytes>
+						</object>
 					</object>
 				</object>
 				<string key="NSFrame">{{0, 20}, {320, 460}}</string>
@@ -113,6 +142,23 @@
 					</object>
 					<int key="connectionID">7</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">desFrase</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="569136434"/>
+					</object>
+					<int key="connectionID">13</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">proximaDesFrase:</string>
+						<reference key="source" ref="314596659"/>
+						<reference key="destination" ref="372490531"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">14</int>
+				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<object class="NSArray" key="orderedObjects">
@@ -139,6 +185,7 @@
 						<reference key="object" ref="774585933"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="314596659"/>
 							<reference ref="885763318"/>
 							<reference ref="569136434"/>
 						</object>
@@ -153,6 +200,13 @@
 						<int key="objectID">10</int>
 						<reference key="object" ref="569136434"/>
 						<reference key="parent" ref="774585933"/>
+						<string key="objectName">desFrase</string>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">11</int>
+						<reference key="object" ref="314596659"/>
+						<reference key="parent" ref="774585933"/>
+						<string key="objectName">proximaDesFrase</string>
 					</object>
 				</object>
 			</object>
@@ -163,6 +217,7 @@
 					<string>-1.CustomClassName</string>
 					<string>-2.CustomClassName</string>
 					<string>10.IBPluginDependency</string>
+					<string>11.IBPluginDependency</string>
 					<string>6.IBEditorWindowLastContentRect</string>
 					<string>6.IBPluginDependency</string>
 					<string>9.IBPluginDependency</string>
@@ -171,6 +226,7 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>desFrasesViewController</string>
 					<string>UIResponder</string>
+					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>{{239, 654}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -189,7 +245,7 @@
 				<reference key="dict.values" ref="0"/>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">10</int>
+			<int key="maxID">14</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -197,6 +253,28 @@
 				<object class="IBPartialClassDescription">
 					<string key="className">desFrasesViewController</string>
 					<string key="superclassName">UIViewController</string>
+					<object class="NSMutableDictionary" key="actions">
+						<string key="NS.key.0">proximaDesFrase:</string>
+						<string key="NS.object.0">id</string>
+					</object>
+					<object class="NSMutableDictionary" key="actionInfosByName">
+						<string key="NS.key.0">proximaDesFrase:</string>
+						<object class="IBActionInfo" key="NS.object.0">
+							<string key="name">proximaDesFrase:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+					</object>
+					<object class="NSMutableDictionary" key="outlets">
+						<string key="NS.key.0">desFrase</string>
+						<string key="NS.object.0">UILabel</string>
+					</object>
+					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<string key="NS.key.0">desFrase</string>
+						<object class="IBToOneOutletInfo" key="NS.object.0">
+							<string key="name">desFrase</string>
+							<string key="candidateClassName">UILabel</string>
+						</object>
+					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
 						<string key="minorKey">./Classes/desFrasesViewController.h</string>

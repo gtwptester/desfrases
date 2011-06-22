@@ -11,5 +11,7 @@
 @interface desFrasesViewController : UIViewController {
     
 }
+@property (nonatomic, retain) IBOutlet UILabel *desFrase;
+- (IBAction)proximaDesFrase: (id)sender;
 
 @end
