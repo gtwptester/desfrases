@@ -14,7 +14,6 @@
 }
 
 @property (nonatomic, retain) IBOutlet UILabel *desFrase;
-//@property (nonatomic,retain) DesFrases *frases;
 
 - (IBAction)proximaDesFrase: (id)sender;
 
