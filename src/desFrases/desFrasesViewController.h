@@ -7,11 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DesFrases.h"
 
 @interface desFrasesViewController : UIViewController {
-    
+    DesFrases *frases;
 }
+
 @property (nonatomic, retain) IBOutlet UILabel *desFrase;
+//@property (nonatomic,retain) DesFrases *frases;
+
 - (IBAction)proximaDesFrase: (id)sender;
 
 @end

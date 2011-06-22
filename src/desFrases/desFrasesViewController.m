@@ -11,14 +11,19 @@
 @implementation desFrasesViewController
 @synthesize desFrase;
 
+- (void)viewDidLoad{
+    frases = [[DesFrases alloc]init];
+}
+
 -(IBAction)proximaDesFrase:(id)sender{
     
-    desFrase.text = @"Depois do primeiro passo dê o segundo.";
+    desFrase.text = [frases proximaDesFrase];
 }
 
 - (void)dealloc
 {
     [desFrase dealloc];
+    [frases dealloc];
     [super dealloc];
 }
 
@@ -27,12 +32,11 @@
     [super didReceiveMemoryWarning];
 }
 
-#pragma mark - View lifecycle
 - (void)viewDidUnload
 {
     [super viewDidUnload];
     self.desFrase = nil;
-    // e.g. self.myOutlet = nil;
+    frases = nil;
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
