@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73DF796513B21E230072C101 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73DF796413B21E230072C101 /* UIKit.framework */; };
+		73DF796713B21E230072C101 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73DF796613B21E230072C101 /* Foundation.framework */; };
+		73DF796913B21E230072C101 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73DF796813B21E230072C101 /* CoreGraphics.framework */; };
+		73DF796F13B21E230072C101 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 73DF796D13B21E230072C101 /* InfoPlist.strings */; };
+		73DF797213B21E230072C101 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DF797113B21E230072C101 /* main.m */; };
+		73DF797513B21E230072C101 /* desFrasesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DF797413B21E230072C101 /* desFrasesAppDelegate.m */; };
+		73DF797813B21E230072C101 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73DF797613B21E230072C101 /* MainWindow.xib */; };
+		73DF797B13B21E230072C101 /* desFrasesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DF797A13B21E230072C101 /* desFrasesViewController.m */; };
+		73DF797E13B21E230072C101 /* desFrasesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73DF797C13B21E230072C101 /* desFrasesViewController.xib */; };
+		73DF798513B222700072C101 /* spiderwall-black-wide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73DF798413B222700072C101 /* spiderwall-black-wide.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		73DF796013B21E230072C101 /* desFrases.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = desFrases.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73DF796413B21E230072C101 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		73DF796613B21E230072C101 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		73DF796813B21E230072C101 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		73DF796C13B21E230072C101 /* desFrases-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "desFrases-Info.plist"; sourceTree = "<group>"; };
+		73DF796E13B21E230072C101 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		73DF797013B21E230072C101 /* desFrases-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "desFrases-Prefix.pch"; sourceTree = "<group>"; };
+		73DF797113B21E230072C101 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		73DF797313B21E230072C101 /* desFrasesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = desFrasesAppDelegate.h; sourceTree = "<group>"; };
+		73DF797413B21E230072C101 /* desFrasesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = desFrasesAppDelegate.m; sourceTree = "<group>"; };
+		73DF797713B21E230072C101 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		73DF797913B21E230072C101 /* desFrasesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = desFrasesViewController.h; sourceTree = "<group>"; };
+		73DF797A13B21E230072C101 /* desFrasesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = desFrasesViewController.m; sourceTree = "<group>"; };
+		73DF797D13B21E230072C101 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/desFrasesViewController.xib; sourceTree = "<group>"; };
+		73DF798413B222700072C101 /* spiderwall-black-wide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "spiderwall-black-wide.jpg"; path = "../../../../Desktop/spiderwall-black-wide.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73DF795D13B21E230072C101 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73DF796513B21E230072C101 /* UIKit.framework in Frameworks */,
+				73DF796713B21E230072C101 /* Foundation.framework in Frameworks */,
+				73DF796913B21E230072C101 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73DF795513B21E230072C101 = {
+			isa = PBXGroup;
+			children = (
+				73DF796A13B21E230072C101 /* desFrases */,
+				73DF796313B21E230072C101 /* Frameworks */,
+				73DF796113B21E230072C101 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73DF796113B21E230072C101 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73DF796013B21E230072C101 /* desFrases.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73DF796313B21E230072C101 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73DF796413B21E230072C101 /* UIKit.framework */,
+				73DF796613B21E230072C101 /* Foundation.framework */,
+				73DF796813B21E230072C101 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73DF796A13B21E230072C101 /* desFrases */ = {
+			isa = PBXGroup;
+			children = (
+				73DF797313B21E230072C101 /* desFrasesAppDelegate.h */,
+				73DF797413B21E230072C101 /* desFrasesAppDelegate.m */,
+				73DF797613B21E230072C101 /* MainWindow.xib */,
+				73DF797913B21E230072C101 /* desFrasesViewController.h */,
+				73DF797A13B21E230072C101 /* desFrasesViewController.m */,
+				73DF797C13B21E230072C101 /* desFrasesViewController.xib */,
+				73DF798413B222700072C101 /* spiderwall-black-wide.jpg */,
+				73DF796B13B21E230072C101 /* Supporting Files */,
+			);
+			path = desFrases;
+			sourceTree = "<group>";
+		};
+		73DF796B13B21E230072C101 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				73DF796C13B21E230072C101 /* desFrases-Info.plist */,
+				73DF796D13B21E230072C101 /* InfoPlist.strings */,
+				73DF797013B21E230072C101 /* desFrases-Prefix.pch */,
+				73DF797113B21E230072C101 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73DF795F13B21E230072C101 /* desFrases */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73DF798113B21E230072C101 /* Build configuration list for PBXNativeTarget "desFrases" */;
+			buildPhases = (
+				73DF795C13B21E230072C101 /* Sources */,
+				73DF795D13B21E230072C101 /* Frameworks */,
+				73DF795E13B21E230072C101 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = desFrases;
+			productName = desFrases;
+			productReference = 73DF796013B21E230072C101 /* desFrases.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73DF795713B21E230072C101 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 73DF795A13B21E230072C101 /* Build configuration list for PBXProject "desFrases" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 73DF795513B21E230072C101;
+			productRefGroup = 73DF796113B21E230072C101 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73DF795F13B21E230072C101 /* desFrases */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73DF795E13B21E230072C101 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73DF796F13B21E230072C101 /* InfoPlist.strings in Resources */,
+				73DF797813B21E230072C101 /* MainWindow.xib in Resources */,
+				73DF797E13B21E230072C101 /* desFrasesViewController.xib in Resources */,
+				73DF798513B222700072C101 /* spiderwall-black-wide.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73DF795C13B21E230072C101 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73DF797213B21E230072C101 /* main.m in Sources */,
+				73DF797513B21E230072C101 /* desFrasesAppDelegate.m in Sources */,
+				73DF797B13B21E230072C101 /* desFrasesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		73DF796D13B21E230072C101 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73DF796E13B21E230072C101 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		73DF797613B21E230072C101 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73DF797713B21E230072C101 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		73DF797C13B21E230072C101 /* desFrasesViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73DF797D13B21E230072C101 /* en */,
+			);
+			name = desFrasesViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		73DF797F13B21E230072C101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		73DF798013B21E230072C101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		73DF798213B21E230072C101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "desFrases/desFrases-Prefix.pch";
+				INFOPLIST_FILE = "desFrases/desFrases-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		73DF798313B21E230072C101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "desFrases/desFrases-Prefix.pch";
+				INFOPLIST_FILE = "desFrases/desFrases-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73DF795A13B21E230072C101 /* Build configuration list for PBXProject "desFrases" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73DF797F13B21E230072C101 /* Debug */,
+				73DF798013B21E230072C101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73DF798113B21E230072C101 /* Build configuration list for PBXNativeTarget "desFrases" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73DF798213B21E230072C101 /* Debug */,
+				73DF798313B21E230072C101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73DF795713B21E230072C101 /* Project object */;
+}
