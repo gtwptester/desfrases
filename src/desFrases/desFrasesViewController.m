@@ -9,6 +9,7 @@
 #import "desFrasesViewController.h"
 
 @implementation desFrasesViewController
+
 @synthesize desFrase;
 @synthesize modelView;
 
@@ -16,14 +17,14 @@
     frases = [[DesFrases alloc]init];
 }
 
--(IBAction)proximaDesFrase:(id)sender{
-    
+-(IBAction)proximaDesFrase:(id)sender{    
     desFrase.text = [frases proximaDesFrase];
 }
 
 - (void)dealloc {
     [desFrase dealloc];
     [frases dealloc];
+    [modelView dealloc];
     [super dealloc];
 }
 
@@ -35,6 +36,7 @@
     [super viewDidUnload];
     self.desFrase = nil;
     frases = nil;
+    modelView = nil;
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation{
