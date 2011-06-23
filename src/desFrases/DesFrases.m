@@ -24,8 +24,10 @@
                      @"Na história da humanidade existem muitos humanos",
                      @"Ao decorrer dos anos o tempo se passou",
                      @"As piores coisas da vida não são as melhores",
-                     @"Na escuridÃo sempre há ausência de luz",
+                     @"Na escuridão sempre há ausência de luz",
                      @"Ir embora é deixar algum lugar",
+                     @"Tudo que vai, foi",
+                     @"O calor do fogo é quente",
                      nil                         
                      ];
     }
