@@ -37,11 +37,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "desFrases/desFrasesViewController.m"
-         timestampString = "330454856.101684"
+         timestampString = "330553467.927553"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "20"
-         endingLineNumber = "20"
+         startingLineNumber = "21"
+         endingLineNumber = "21"
          landmarkName = "-proximaDesFrase:"
          landmarkType = "5">
       </FileBreakpoint>

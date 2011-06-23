@@ -10,6 +10,7 @@
 
 @implementation desFrasesViewController
 @synthesize desFrase;
+@synthesize modelView;
 
 - (void)viewDidLoad{
     frases = [[DesFrases alloc]init];
@@ -20,29 +21,34 @@
     desFrase.text = [frases proximaDesFrase];
 }
 
-- (void)dealloc
-{
+- (void)dealloc {
     [desFrase dealloc];
     [frases dealloc];
     [super dealloc];
 }
 
-- (void)didReceiveMemoryWarning
-{
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 }
 
-- (void)viewDidUnload
-{
+- (void)viewDidUnload {
     [super viewDidUnload];
     self.desFrase = nil;
     frases = nil;
 }
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    // Return YES for supported orientations
-    return YES;//(interfaceOrientation == UIInterfaceOrientationPortrait);
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation{
+    return YES;
+}
+
+- (void) showSplash{
+    UIViewController *modalViewController = [[UIViewController alloc] init];
+    modalViewController.view = modelView;
+    [self presentModalViewController:modalViewController animated:NO];
+    [self performSelector:@selector(hideSplash) withObject:nil afterDelay:2.5];
+}
+-(void) hideSplash{
+    [[self modalViewController] dismissModalViewControllerAnimated:YES];
 }
 
 @end

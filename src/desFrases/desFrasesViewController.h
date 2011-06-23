@@ -14,7 +14,10 @@
 }
 
 @property (nonatomic, retain) IBOutlet UILabel *desFrase;
+@property (nonatomic,retain) IBOutlet UIView *modelView;
 
+- (void)showSplash;
+- (void)hideSplash;
 - (IBAction)proximaDesFrase: (id)sender;
 
 @end
