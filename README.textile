@@ -1,0 +1,11 @@
+h1. (des)Frases
+
+Este é um projeto aberto desenvolvido em *objective-C* utilizando *XCode 4*.
+A idéia é além de aprender compartilhar um pouco de algumas frases de _jenio_ . Estas frases, ou desfrases, são um fruto da brincadeira com o fenômeno da internet que "transforma" muitas pessoas em "filósofos intelectuais".
+
+Algumas features estão sendo planejadas e serão adicionadas em breve. Este é um projeto de 2 horas até o momento :P
+
+Faça um fork, crie suas (des)frases e divirta-se.
+
+!http://viniciusquaiato.com/desfrases/images/screen1.png!
+!http://viniciusquaiato.com/desfrases/images/screen2.png!
