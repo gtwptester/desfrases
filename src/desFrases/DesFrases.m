@@ -28,6 +28,9 @@
                      @"Ir embora é deixar algum lugar",
                      @"Tudo que vai, foi",
                      @"O calor do fogo é quente",
+                     @"Os que saíram já não estão mais",
+                     @"Viva o hoje pois não é possível viver o ontem e nem o amanhã",
+                     "Uma jornada sempre começa pelo início",
                      nil                         
                      ];
     }
